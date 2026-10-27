@@ -25,3 +25,7 @@ has been made. Version below is `X.Y.Z`; tag is `vX.Y.Z`.
 
 ## Rollback
 Delete/yank the GitHub Release and revert the Cask commit; users on a bad version upgrade once the fixed version is published.
+
+
+## Automation status (2026-10-28)
+The private CLI repo now carries the scripted flow (`make snapshot / release-dry / release / notices / cask`, `scripts/release/*`, `docs/RELEASE.md`). This document remains the human checklist; the scripts implement it. Signing/notarization still need the owner's Developer ID certificate and notary profile.
