@@ -9,9 +9,9 @@ Install with Homebrew (once released): `brew install --cask goldenkube/tap/golde
 
 | File | Purpose |
 |---|---|
-| `EULA.md` | End user license (DRAFT, pending legal review) |
-| `THIRD-PARTY-NOTICES.md` | Template; generated from Go modules at release time |
-| `PRIVACY-NOTICE.md` | What the CLI sends and never sends (DRAFT) |
+| `EULA.md` | End user license agreement |
+| `THIRD-PARTY-NOTICES.md` | Licenses of the Go modules in the binary (go-licenses v1.6.0; regenerated at release time) |
+| `PRIVACY-NOTICE.md` | What the CLI sends and never sends |
 | `RELEASE-PROCESS.md` | Build, sign, notarize, publish checklist |
 
 GoldenKube is proprietary software; see the EULA.

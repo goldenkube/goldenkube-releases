@@ -1,15 +1,13 @@
 # GoldenKube End User License Agreement
 
-> **DRAFT - pending owner and legal review. Not in force. Do not ship with a release until approved.**
+Last updated: 2026-10-28
 
-Last updated: [date]
-
-This End User License Agreement ("Agreement") is between [Licensor legal entity name] ("Licensor") and
+This End User License Agreement ("Agreement") is between ITEXPERT24 LTD, a company registered in England and Wales ("Licensor") and
 you ("You") and governs Your use of the GoldenKube command-line software, associated scenarios and
 grading content, and any updates provided by Licensor (together, the "Software").
 
 ## 1. License grant
-Subject to this Agreement and to any applicable paid plan, Licensor grants You a limited,
+Subject to this Agreement, Licensor grants You a limited,
 non-exclusive, non-transferable, revocable license to install and use the Software on devices You
 own or control, for Your personal or internal professional training and certification preparation.
 
@@ -47,9 +45,10 @@ Nothing here excludes warranties that cannot be excluded under applicable law.
 
 ## 7. Limitation of liability
 To the maximum extent permitted by law, Licensor is not liable for indirect, incidental, special,
-consequential, or punitive damages, or loss of data or profits, and total liability is limited to
-the amount You paid for the Software in the twelve months before the claim [amount/terms to be
-confirmed by counsel]. Nothing limits liability that cannot be limited by law.
+consequential, or punitive damages, or loss of data or profits, and Licensor's total liability is
+limited to the greater of (a) the amount You paid for the Software in the twelve months before the
+claim and (b) GBP 100. Nothing in this Agreement limits or excludes liability for death or personal
+injury caused by negligence, for fraud, or any other liability that cannot be limited by law.
 
 ## 8. Termination
 This Agreement applies until terminated. Licensor may terminate or suspend Your license on breach.
@@ -57,9 +56,10 @@ You may terminate by uninstalling the Software. On termination You must stop usi
 Software. Sections 2, 5, 6, 7, 8 and 9 survive termination.
 
 ## 9. Governing law
-This Agreement is governed by the laws of [Jurisdiction], without regard to conflict-of-law rules.
-Courts of [Jurisdiction] have [exclusive/non-exclusive] jurisdiction, subject to mandatory consumer
-protection rules of Your country of residence.
+This Agreement is governed by the laws of England and Wales, without regard to conflict-of-law
+rules. The courts of England and Wales have non-exclusive jurisdiction. If You are a consumer, You
+keep the protection of the mandatory laws of Your country of residence and may also bring
+proceedings in the courts of that country.
 
 ## 10. Changes and contact
-Licensor may update this Agreement for future versions of the Software. Contact: [legal contact email].
+Licensor may update this Agreement for future versions of the Software. Contact: hello@goldenkube.dev.
