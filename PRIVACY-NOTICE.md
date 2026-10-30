@@ -4,7 +4,7 @@ Last updated: 2026-10-30 - Controller: ITEXPERT24 LTD, a company registered in E
 (company number 17110917), registered office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom.
 Contact: hello@goldenkube.dev
 EU representative (GDPR Article 27), for individuals in the European Economic Area: İbrahim Yeşilay,
-Woppenrieth 1, 92727 Waldthurn, Germany, hello@goldenkube.dev, +49 173 9997426.
+Woppenrieth 1, 92727 Waldthurn, Germany, hello@goldenkube.dev.
 
 This notice covers the `goldenkube` command-line tool. The website goldenkube.dev has its own
 privacy page (https://goldenkube.dev/privacy).

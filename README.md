@@ -5,7 +5,7 @@ checksums via GitHub Releases: macOS (Apple Silicon, Intel) and Linux (amd64, ar
 
 > Current release: v0.1.0 (2026-10-30). Assets, checksums and the minisign signature are on the Releases page.
 
-Install (once released), macOS and Linux: `curl --proto '=https' --tlsv1.2 -sSf https://goldenkube.dev/install.sh | sh`; Linux alternatively the `.deb`/`.rpm` attached to the release. Verify with `goldenkube_<version>_checksums.txt` and its `.minisig` (see SECURITY.md).
+Install, macOS and Linux: `curl --proto '=https' --tlsv1.2 -sSf https://goldenkube.dev/install.sh | sh`; Linux alternatively the `.deb`/`.rpm` attached to the release. Verify with `goldenkube_<version>_checksums.txt` and its `.minisig` (see SECURITY.md).
 
 | File | Purpose |
 |---|---|
