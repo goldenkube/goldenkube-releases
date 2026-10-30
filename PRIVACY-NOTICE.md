@@ -1,6 +1,6 @@
 # GoldenKube CLI Privacy Notice
 
-Last updated: 2026-10-28 - Controller: ITEXPERT24 LTD (England and Wales), hello@goldenkube.dev
+Last updated: 2026-10-30 - Controller: ITEXPERT24 LTD (England and Wales), hello@goldenkube.dev
 
 This notice covers the `goldenkube` command-line tool. The website goldenkube.dev has its own
 privacy page (https://goldenkube.dev/privacy).
@@ -11,7 +11,8 @@ All requests go over HTTPS to goldenkube.dev and carry a `User-Agent` of the for
 
 - **Sign-in** (`goldenkube login`, OAuth device flow): the CLI's client id, the requested scopes
   and the API audience; later, the refresh token to renew access. You approve the sign-in in your
-  browser. Access and refresh tokens are stored in the macOS Keychain on your machine.
+  browser. Access and refresh tokens are stored in the macOS Keychain on your machine (on Linux
+  in a file only your user can read, `~/.config/goldenkube/credentials.json`).
 - **Starting a practice run:** scenario id and version, CLI version, start time. For a mock exam
   also: exam id, number of tasks, the drawn scenario ids and versions, and the draw seed.
 - **Run progress:** "provisioning started", "ready" or "provisioning failed" with a timestamp. When
@@ -26,6 +27,15 @@ All requests go over HTTPS to goldenkube.dev and carry a `User-Agent` of the for
 When you are offline these items are queued on your machine and sent later in the same form.
 `goldenkube doctor` also makes one request without your token to check that goldenkube.dev is
 reachable. Your IP address is visible to our hosting provider with every request.
+
+- **Release check:** at most once a day, after a command finishes, the CLI downloads the static
+  file https://goldenkube.dev/cli/latest.json (the latest released version) to tell you when a
+  newer release exists. The request carries only the `User-Agent` above; no account or token.
+  `goldenkube upgrade` makes the same request and then downloads the release archive and its
+  checksums from GitHub. Turn the daily check off with `GOLDENKUBE_NO_UPDATE_CHECK=1` or
+  `updates: {check: false}` in config.yaml.
+- **Install script** (Linux, `goldenkube.dev/install.sh`): downloads the same two files from
+  goldenkube.dev and GitHub; it sends nothing else.
 
 Purpose: sign you in, record and show your progress across devices, and keep the scenario catalog
 current. Legal basis: performance of the contract with you (the EULA).
@@ -53,7 +63,7 @@ You can access, export, correct and delete your data:
 - **Correct:** change your display name in Settings; for anything else, email us.
 - **Devices:** Settings -> Connected devices lists the CLI sessions signed in to your account and
   lets you disconnect them; `goldenkube logout` asks the server to disconnect the current one and
-  removes its tokens from the Keychain.
+  removes its tokens from the Keychain (or the credentials file on Linux).
 - **Delete:** Settings -> Security -> Delete account. A confirmation link is emailed to you; opening it deletes
   your account, your study data and your CLI run records.
 - Or email hello@goldenkube.dev. You can also complain to your data protection authority (in the

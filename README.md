@@ -1,11 +1,11 @@
 # goldenkube-releases
 
 Public release artifacts for the GoldenKube CLI (https://goldenkube.dev): signed binaries and
-checksums via GitHub Releases. This repository never contains source code.
+checksums via GitHub Releases (macOS signed + notarized; Linux amd64/arm64 archives and packages verified by sha256). This repository never contains source code.
 
 > Status: pre-release scaffolding. No release has been published yet.
 
-Install with Homebrew (once released): `brew install --cask goldenkube/tap/goldenkube`
+Install (once released): macOS `brew install --cask goldenkube/tap/goldenkube`; Linux `curl -fsSL https://goldenkube.dev/install.sh | sh` or the `.deb`/`.rpm` attached to the release (unsigned archives; verify with `goldenkube_<version>_checksums.txt`).
 
 | File | Purpose |
 |---|---|
