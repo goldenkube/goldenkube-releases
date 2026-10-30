@@ -21,7 +21,7 @@ Full steps: https://goldenkube.dev/cli/install
 - CKA, CKAD and CKS scenarios were verified on live clusters on macOS (Apple Silicon).
 - ICA, LFCS and CNPE scenarios are published as **preview**: their task text and graders are complete, but
   they have not yet been run end to end on a VM. Report problems with `goldenkube diagnostics --bundle`.
-- Linux (amd64/arm64) builds are a **preview**: the same engine, not yet exercised on a Linux host.
+- Linux (amd64/arm64): the same engine; verified on a Linux host before this release.
 - macOS binaries are not Apple-signed or notarized in this release. Install with the script (curl downloads
   carry no quarantine flag); a browser-downloaded archive will be blocked by Gatekeeper.
 
