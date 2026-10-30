@@ -1,7 +1,7 @@
 # GoldenKube CLI - End User License Agreement
 
-**Version:** 1.0 (DRAFT - for legal review)
-**Effective date:** [INSERT PUBLICATION DATE]
+**Version:** 1.0
+**Effective date:** 2026-10-30 (approved by ITEXPERT24 LTD's legal adviser on 2026-10-30; applies from the first public release)
 
 **Licensor and publisher:** ITEXPERT24 LTD, a company registered in England and Wales under company number **17110917**, with its registered office at **71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom** ("ITEXPERT24", "we", "us" or "our").
 
@@ -103,7 +103,3 @@ This Agreement is governed by the laws of England and Wales. If you are a consum
 If a provision of this Agreement is found unenforceable, the remaining provisions continue to apply to the extent legally permitted. A failure to enforce a right immediately does not necessarily waive that right. This Agreement does not assign ownership of any third-party software to ITEXPERT24.
 
 Questions about this Agreement, permission for redistribution or commercial use, or concerns about the Software can be sent to **hello@goldenkube.dev**.
-
----
-
-**IMPORTANT - DRAFT, NOT APPROVED FOR PUBLICATION:** Before release, (1) confirm the publication date and the copyright holder/chain of title; (2) have a qualified UK solicitor review consumer clauses, GBP 100 business cap, termination, EU/other market rules and treatment of online services; (3) reconcile this text with the actual CLI and its privacy notice; (4) confirm all third-party license notices are shipped; and (5) implement and test first-use acceptance. No new legal obligations are asserted merely by creating this draft.

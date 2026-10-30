@@ -1,6 +1,6 @@
 # GoldenKube CLI Privacy Notice
 
-Last updated: 2026-10-30 (DRAFT - for legal review) - Controller: ITEXPERT24 LTD, a company registered in England and Wales
+Last updated: 2026-10-30 - Controller: ITEXPERT24 LTD, a company registered in England and Wales
 (company number 17110917), registered office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom.
 Contact: hello@goldenkube.dev
 
@@ -49,7 +49,7 @@ current. Legal basis: performance of the contract with you (the EULA).
 Practice clusters run entirely in virtual machines on your machine and grading runs locally.
 
 ## Service providers
-- Cloudflare: hosting (Workers), database (D1), email sending and routing, bot protection (Turnstile)
+- Cloudflare: hosting (Workers), database (D1), email sending and routing, bot protection (Turnstile), cookieless web analytics (Web Analytics) on the website
 - GitHub: release downloads; sign-in when you choose "Sign in with GitHub"
 - Google: sign-in when you choose "Sign in with Google"
 
