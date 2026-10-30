@@ -38,8 +38,8 @@ reachable. Your IP address is visible to our hosting provider with every request
   `goldenkube upgrade` makes the same request and then downloads the release archive and its
   checksums from GitHub. Turn the daily check off with `GOLDENKUBE_NO_UPDATE_CHECK=1` or
   `updates: {check: false}` in config.yaml.
-- **Install script** (Linux, `goldenkube.dev/install.sh`): downloads the same two files from
-  goldenkube.dev and GitHub; it sends nothing else.
+- **Install script** (macOS and Linux, `goldenkube.dev/install.sh`): downloads the release pointer from
+  goldenkube.dev and the release files from GitHub; it sends nothing else.
 
 Purpose: sign you in, record and show your progress across devices, and keep the scenario catalog
 current. Legal basis: performance of the contract with you (the EULA).
@@ -75,8 +75,11 @@ You can access, export, correct and delete your data:
   our EU representative named above).
 
 ## Local data
-The CLI stores configuration, run state, caches and logs under
-`~/Library/Application Support/goldenkube`, `~/Library/Caches/goldenkube` and
-`~/Library/Logs/goldenkube`. `brew uninstall --cask --zap goldenkube` removes these folders. It does
-not remove the Keychain entry (run `goldenkube logout` first) or practice VMs (run
-`goldenkube destroy` first).
+The CLI stores configuration, run state (including the recorded EULA acceptance), caches and logs
+on your computer: on macOS under `~/Library/Application Support/goldenkube`,
+`~/Library/Caches/goldenkube` and `~/Library/Logs/goldenkube`; on Linux under
+`~/.config/goldenkube`, `~/.local/state/goldenkube` and `~/.cache/goldenkube`. The install script
+puts the binary in `~/.local/bin` and the licence texts under `.../goldenkube/legal`. To remove
+everything: `goldenkube destroy --all --templates` (practice VMs), `goldenkube logout` (tokens), then
+delete the folders and the binary by hand (or `dpkg -r goldenkube` / `rpm -e goldenkube` for a
+package install).

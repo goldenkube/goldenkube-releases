@@ -35,7 +35,7 @@ sha256sum -c --ignore-missing goldenkube_<version>_checksums.txt
 
 `goldenkube.dev/install.sh` verifies the signature when `minisign` is installed and always
 verifies the SHA-256; `goldenkube upgrade` verifies the signature itself (the public key is built
-into the CLI). macOS builds are additionally signed with an Apple Developer ID and notarized.
+into the CLI). macOS builds are not yet Apple-signed or notarized (install with the script; a browser download would be stopped by Gatekeeper); that is planned once the Apple Developer enrollment completes.
 
 ## Supported versions
 Only the latest release receives fixes. `goldenkube upgrade --check` reports whether you are on it.

@@ -86,7 +86,7 @@ The Software is provided free of charge and may contain errors, incomplete mater
 
 **Consumers.** Nothing in this Agreement excludes or limits consumer rights that cannot legally be excluded or restricted, including applicable remedies for damage to a device or other digital content caused by a failure to exercise reasonable care and skill. We remain responsible for reasonably foreseeable loss or damage caused by a breach of our legal obligations, as required by applicable law. We do not exclude or limit liability for death or personal injury caused by negligence, fraud, fraudulent misrepresentation, or any other matter that the law does not allow us to exclude or limit.
 
-**Business users.** To the fullest extent permitted by law, neither party is responsible to the other for indirect or consequential losses, or for loss of business profit, revenue or anticipated savings arising out of use of the Free Edition. Subject to the preceding exclusions for liability that cannot legally be restricted, ITEXPERT24's aggregate liability to a business user arising out of or in connection with the Free Edition will not exceed **GBP 100**. The enforceability and reasonableness of this business limitation must be confirmed by legal review before publication.
+**Business users.** To the fullest extent permitted by law, neither party is responsible to the other for indirect or consequential losses, or for loss of business profit, revenue or anticipated savings arising out of use of the Free Edition. Subject to the preceding exclusions for liability that cannot legally be restricted, ITEXPERT24's aggregate liability to a business user arising out of or in connection with the Free Edition will not exceed **GBP 100**.
 
 ## 11. Suspension, termination and effect
 
