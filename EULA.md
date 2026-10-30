@@ -61,5 +61,10 @@ rules. The courts of England and Wales have non-exclusive jurisdiction. If You a
 keep the protection of the mandatory laws of Your country of residence and may also bring
 proceedings in the courts of that country.
 
-## 10. Changes and contact
+## 10. Trademarks
+GoldenKube is not affiliated with, endorsed by, or sponsored by The Linux Foundation or the Cloud Native
+Computing Foundation. Kubernetes and the certification names referenced by the Software are trademarks of
+The Linux Foundation and its projects, used only to describe the subject matter of the practice material.
+
+## 11. Changes and contact
 Licensor may update this Agreement for future versions of the Software. Contact: hello@goldenkube.dev.

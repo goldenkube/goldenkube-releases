@@ -15,3 +15,15 @@ Install (once released): macOS `brew install --cask goldenkube/tap/goldenkube`; 
 | `RELEASE-PROCESS.md` | Build, sign, notarize, publish checklist |
 
 GoldenKube is proprietary software; see the EULA.
+
+## Trademarks and affiliation
+GoldenKube is an independent project of ITEXPERT24 LTD and is not affiliated with, endorsed by, or sponsored by
+the Cloud Native Computing Foundation or The Linux Foundation. Kubernetes®, the certification names (CKA, CKAD, CKS,
+KCNA, KCSA, LFCS, ICA, CNPE and others) and all related marks are trademarks of The Linux Foundation and its projects
+and are used here only to describe what the practice material covers.
+
+## Reporting a problem
+Bugs: email hello@goldenkube.dev with the output of `goldenkube diagnostics --bundle` (paths and versions only; tokens
+are redacted). Security issues: see SECURITY.md. Export note: the binary uses only standard TLS from the Go standard
+library; no proprietary cryptography.
+
