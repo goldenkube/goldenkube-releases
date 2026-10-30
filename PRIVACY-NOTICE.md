@@ -1,6 +1,8 @@
 # GoldenKube CLI Privacy Notice
 
-Last updated: 2026-10-30 - Controller: ITEXPERT24 LTD (England and Wales), hello@goldenkube.dev
+Last updated: 2026-10-30 (DRAFT - for legal review) - Controller: ITEXPERT24 LTD, a company registered in England and Wales
+(company number 17110917), registered office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom.
+Contact: hello@goldenkube.dev
 
 This notice covers the `goldenkube` command-line tool. The website goldenkube.dev has its own
 privacy page (https://goldenkube.dev/privacy).
