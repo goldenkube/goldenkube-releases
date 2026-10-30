@@ -3,6 +3,8 @@
 Last updated: 2026-10-30 - Controller: ITEXPERT24 LTD, a company registered in England and Wales
 (company number 17110917), registered office 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom.
 Contact: hello@goldenkube.dev
+EU representative (GDPR Article 27), for individuals in the European Economic Area: İbrahim Yeşilay,
+Woppenrieth 1, 92727 Waldthurn, Germany, hello@goldenkube.dev, +49 173 9997426.
 
 This notice covers the `goldenkube` command-line tool. The website goldenkube.dev has its own
 privacy page (https://goldenkube.dev/privacy).
@@ -69,7 +71,8 @@ You can access, export, correct and delete your data:
 - **Delete:** Settings -> Security -> Delete account. A confirmation link is emailed to you; opening it deletes
   your account, your study data and your CLI run records.
 - Or email hello@goldenkube.dev. You can also complain to your data protection authority (in the
-  UK, the Information Commissioner's Office).
+  UK, the Information Commissioner's Office; in the EEA, your local supervisory authority, or contact
+  our EU representative named above).
 
 ## Local data
 The CLI stores configuration, run state, caches and logs under
