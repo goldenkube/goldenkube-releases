@@ -3,7 +3,7 @@
 Public release artifacts for the GoldenKube CLI (https://goldenkube.dev): signed binaries and
 checksums via GitHub Releases: macOS (Apple Silicon, Intel) and Linux (amd64, arm64) archives, Linux .deb/.rpm packages, SHA-256 checksums signed with minisign. macOS binaries are not Apple-signed or notarized yet. This repository never contains source code.
 
-> Status: pre-release scaffolding. No release has been published yet.
+> Current release: v0.1.0 (2026-10-30). Assets, checksums and the minisign signature are on the Releases page.
 
 Install (once released), macOS and Linux: `curl --proto '=https' --tlsv1.2 -sSf https://goldenkube.dev/install.sh | sh`; Linux alternatively the `.deb`/`.rpm` attached to the release. Verify with `goldenkube_<version>_checksums.txt` and its `.minisig` (see SECURITY.md).
 
